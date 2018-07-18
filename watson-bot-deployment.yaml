@@ -29,7 +29,7 @@ spec:
       containers:
       - name: watson-bot
         # Should match the name of your Docker image in your repository
-        image: kissyyy/conversation-simple-k8s
+        image: kissyyy/conversation-simple-k8s:apikey
         env:
         - name: WORKSPACE_ID
           valueFrom:
